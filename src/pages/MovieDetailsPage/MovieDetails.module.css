@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: row;
+
+    font-family: sans-serif;
+}
+.detailsContainer{
+    display: flex;
+    flex-direction: column;
+}
+.poster{
+    display: flex;
+    margin: 15px 15px 20px 15px;
+    width: 270px;
+    border-radius: 3px;
+}
+.title{
+    margin-top: 33px;
+    margin-bottom: 10px;
+}
+.score,
+.list{
+    margin: 0;
+}
+.overviewTitle,
+.genresTitle{
+    font-weight: bolder;
+}
+.navigation {
+    display: flex;
+    gap: 10px;
+    position: sticky;
+    top: 0;
+    background-color: white; 
+    padding: 10px;
+    z-index: 100;
+    border-bottom: 2px solid #ddd; 
+}
+
+.link{
+    font-family: sans-serif;
+    color:black;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.link:hover,
+.link:focus {
+    color: #3a48e9;
+}
+.active{
+    color: #4d5ae5;
+    font-weight: bolder;
+}
+.loader{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}

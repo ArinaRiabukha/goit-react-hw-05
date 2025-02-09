@@ -1,0 +1,50 @@
+.castContainer {
+    font-family: sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    max-width: 900px;
+}
+.castItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}
+.actorImage {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.actorInfo {
+    margin-top: 10px;
+}
+.actorName {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+.actorCharacter {
+    font-size: 14px;
+    color: #555;
+}
+.noInfo {
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+}
+.loader{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}

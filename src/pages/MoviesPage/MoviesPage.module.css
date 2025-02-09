@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.search{
+    margin: 20px 10px 0 15px;
+    width: 300px;
+    padding: 4px;
+    border-radius: 3px;
+}
+.searchBtn{
+    font-family: sans-serif;
+    font-size: 15px;
+
+    display: flex;
+    padding: 5px 8px;
+    height: 28px;
+    margin-top: 20px;
+
+    border: solid rgb(220, 220, 220) 2px;
+    border-radius: 3px;
+    background-color: whitesmoke;
+    color: black;
+    transition: background-color 0.3s ease;
+}
+.searchBtn:hover,
+.searchBtn:focus{
+    background-color: rgb(220, 220, 220);
+}

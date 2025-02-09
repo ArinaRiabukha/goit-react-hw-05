@@ -1,0 +1,18 @@
+.link {
+    display: flex;
+    margin: 2px;
+    width: 20%;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: black;
+    transition: color 0.3s ease; 
+}
+.link:hover,
+.link:focus {
+    color: #3a48e9;
+}
+.loader{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+}

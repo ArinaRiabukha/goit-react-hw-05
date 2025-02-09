@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    margin: 30px auto;
+    width: 350px;
+    flex-direction: column;
+}
+.error{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+.goBack{
+    font-family: sans-serif;
+    color: #4d5ae5;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+.goBack:hover,
+.goBack:focus{
+    color: #2c36ac;
+}
